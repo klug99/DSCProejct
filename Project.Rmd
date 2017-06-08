@@ -1,0 +1,46 @@
+---
+title: "Project"
+author: "MPark"
+date: "06/09/2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## The goal
+
+The goal of this exercise is to create a product to highlight the prediction algorithm that you have built and to provide an interface that can be accessed by others. For this project you must submit:
+
+- A Shiny app that takes as input a phrase (multiple words) in a text box input and outputs a prediction of the next word.  
+- A slide deck consisting of no more than 5 slides created with R Studio Presenter (https://support.rstudio.com/hc/en-us/articles/200486468-Authoring-R-Presentations) pitching your algorithm and app as if you were presenting to your boss or an investor.
+
+## Data Product
+
+- Does the link lead to a Shiny app with a text input box that is running on shinyapps.io?    
+- Does the app load to the point where it can accept input?   
+- When you type a phrase in the input box do you get a prediction of a single word after pressing submit and/or a suitable delay for the model to compute the answer?    
+- Put five phrases drawn from Twitter or news articles in English leaving out the last word. Did it give a prediction for every one?  
+
+## File List
+
+- Ngram-based data: nfreq.fN.R  
+  Data nfreq.f1.RData /nfreq.f2.RData /nfreq.f3.RData / nfreq.f4.RData   
+  [Appendix]nfreq.f5.RData/nfreq.f6.RData
+- Ngram Created R file: ngramsCreate.R  
+- server.R/ui.R
+- Description File: Description.Rmd
+
+
+## Methods
+ Step 1: Download the dataset and unzip folder.Check if directory already exists?  
+- Lets make a file connection of the twitter data set/blog data set/ news data set
+
+ Step 2: Explore Data Set.  
+- Get words in files/ Get file sizes /Summary of the data sets  
+
+ Step 3: Clean Data and make sample.  
+
+ Step 4: Get the frequencies of the word / Prepare n-gram frequencies / Get frequencies of most common n-grams in data sample
+

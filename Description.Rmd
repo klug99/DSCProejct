@@ -1,0 +1,11 @@
+---
+title: "Description"
+author: "Minseo Park"
+date: "07/08/2017"
+output: html_document
+---
+
+The Objective  
+
+The main goal of this capstone project is to build a shiny application that is able to predict the next word: The Sample has been clenaed by  removing punctuation, links, white space, numbers, all kinds of special characters and conversion to lowercase. 
+
